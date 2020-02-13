@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158310206-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158310206-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Agilize a formulação de documentos com um gerador de contratos personalizado para seus serviços. Conheça já o Automateasy!">
+
+  <title>Gerador de Contratos | Automateasy por No Bugs</title>
+
+  <link rel="canonical" href="https://automateasy.nobugs.com.br/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon-16x16.png">
+  <link rel="manifest" href="assets/imgs/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <!-- <link rel="stylesheet" href="assets/styles/debug.css"> -->
+</head>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item"
+        onClick="evento('Clicar na logo', 'inicio', 'clique');"
+        href="/">
+        <img src="./assets/imgs/logo.png" alt="logo do gerador de contratos" width="auto" height="56">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" onClick="evento('Clicou inicio', 'inicio', 'clique');" href="#inicio">
+          Início
+        </a>
+
+        <a class="navbar-item"
+          onClick="evento('Clicou sobre', 'sobre', 'clique');" href="#sobre">
+          Sobre
+        </a>
+
+        <a class="navbar-item"
+          onClick="evento('Clicou faq', 'faq', 'clique');" href="#faq">
+          FAQ
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="contato.html"
+              onClick="evento('Clicou orcamento topo', 'orcamento', 'clique');" class="button is-info">
+              <strong>Quero um orçamento</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-fullheight" id="inicio">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-6 is-5-fullhd is-offset-1-fullhd">
+
+            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-2-mobile ">
+              Diga adeus aos<span class="is-hidden-touch"><br></span> contratos manuais!
+            </h1>
+            <p class="subtitle subtitulo-inicio is-size-3-desktop is-size-4-tablet is-size-4-mobile">
+              Agilize a formulação de documentos com um gerador de contratos personalizado para seus serviços!
+            </p>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <a class="button is-info is-medium"
+                  onClick="evento('Clicou orcamento', 'orcamento', 'clique');" href="contato.html">
+                  <strong>Quero um orçamento</strong>
+                </a>
+              </div>
+
+              <div class="control">
+                <a class="button is-light is-medium  is-hidden-mobile " href="#sobre">
+                  <strong>Saiba mais</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-6">
+            <img class="imagem-contrato" alt=“contrato feito pelo gerador de contratos" role="presentation" src="assets/imgs/documentos.svg"
+              srcset=" assets/imgs/documentos.svg 1x, assets/imgs/documentos.svg 2x">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-fullheight section-sobre" id="sobre">
+
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+
+          <div class="column is-4 cartao-sobre">
+            <img class="img-card" alt=“contratos automatizados sem falhas" role="presentation"
+              src="assets/imgs/a prova de falhas.svg">
+            <br>
+            <h3 class="title is-4 is-spaced"> À prova de falhas </h3>
+            <p class="subtitle is-5 is-size-6-mobile subtitulo-sobre">
+              Previna contratos com erros de digitação, termos repetidos ou incoerência de informações. </p>
+          </div>
+
+          <div class="column is-4 cartao-sobre">
+            <img class="img-card" alt=“vários contratos automatizados pelo gerador de contratos" role="presentation"
+              src="assets/imgs/agilidade e eficiencia.svg">
+            <br>
+            <h3 class="title is-4 is-spaced"> Agilidade e eficiência </h3>
+            <p class="subtitle is-5 is-size-6-mobile subtitulo-sobre">
+              Em
+              poucos cliques, tenha seu contrato gerado automaticamente, mesmo que você possua diferentes cláusulas
+              para
+              cada um dos seus serviços. </p>
+          </div>
+
+          <div class="column is-4 cartao-sobre">
+            <img class="img-card" alt=“pessoas celebrando o tempo livre graças ao gerador de contratos"
+              role="presentation" src="assets/imgs/economize seu tempo.svg">
+            <br>
+            <h3 class="title is-4 is-spaced"> Economize seu tempo </h3>
+            <p class="subtitle is-5 is-size-6-mobile subtitulo-sobre">
+              Dê
+              prioridade para o desenvolvimento do projeto e evite perda de tempo com burocracias. Basta deixar que o
+              nosso gerador de contratos faça o trabalho sujo. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section is-medium section-faq" id="faq">
+    <div class="container">
+
+      <h2 class="title" style="margin-bottom:64px;">Perguntas frequentes</h2>
+
+      <button onClick="evento('Clicou o que e automateasy?', 'faq', 'clique');"
+        class="accordion is-size-4 is-size-5-mobile">O que é Automateasy?
+      </button>
+
+      <div class="panel">
+        <p class="subtitle is-5 resposta-faq"> O Automateasy é
+          o gerador de contratos da <a href="https://nobugs.com.br">No Bugs</a>. A partir dele, é possível que a empresa
+          cadastre seus serviços e gere contratos automatizados, que incluem cálculos automáticos de parcelamento, além
+          da inclusão/remoção de cláusulas específicas para os tipos de serviço.</p>
+      </div>
+
+      <button
+        onClick="evento('Clicou Quem pode usar?', 'faq', 'clique');"
+        class="accordion is-size-4 is-size-5-mobile">Quem pode usar o Automateasy?
+      </button>
+
+      <div class="panel">
+        <p class="subtitle is-5 resposta-faq">Você poderá cadastrar e
+          gerenciar o acesso de todos os colaboradores da sua empresa ao automatizador, incluindo diferentes níveis de
+          permissão.</p>
+      </div>
+
+      <button
+        onClick="evento('Clicou Como faco para adquirir?', 'faq', 'clique');"
+        class="accordion is-size-4 is-size-5-mobile">Como faço para adquirir o Automateasy?
+      </button>
+
+      <div class="panel">
+        <p class="subtitle is-5 resposta-faq"><a
+            onClick="evento('Clicou entre em contato', 'orcamento', 'clique');"
+            href="contato.html">Entre em contato conosco</a>. Iremos preparar uma proposta especial do nosso gerador de
+          contratos para a sua empresa.</p>
+      </div>
+
+      <button
+        onClick="evento('Clicou O que fazer se...?', 'faq', 'clique');"
+        class="accordion is-size-4 is-size-5-mobile">
+        O que fazer se ainda não tenho um modelo de contrato?
+      </button>
+
+      <div class="panel">
+        <p class="subtitle is-5 resposta-faq"><a
+            onClick="evento('Clicou entre em contato', 'orcamento', 'clique');"
+            href="contato.html">Entre em contato conosco</a>. Por meio de nossas parcerias, iremos garantir que sua
+          organização tenha todo o suporte jurídico necessário.</p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <a href="https://github.com/guidiasz">Feito com ❤️ por Guilherme Dias</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/evento-analytics.js" type="text/javascript"></script>
+  <script src="assets/js/faq.js" type="text/javascript"></script>
+  <script src="assets/js/navbar-burger.js" type="text/javascript"></script>
+</body>
+</html>

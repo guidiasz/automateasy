@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158310206-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158310206-1');
+  </script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entre em contato, tire suas dúvidas e peça já seu gerador de contratos!">
+
+  <title>Fale Conosco | Automateasy por No Bugs</title>
+
+  <link rel="canonical" href="https://automateasy.nobugs.com.br/contato" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon-16x16.png">
+  <link rel="manifest" href="assets/imgs/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <!-- <link rel="stylesheet" href="assets/styles/debug.css"> -->
+</head>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" onClick="evento('Clicar na logo', 'inicio', clique);" href="/">
+        <img src="assets/imgs/logo.png" alt="logo do gerador de contratos" width="auto" height="56">
+      </a>
+
+      <a role="button" class="navbar-burger burger " aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" onClick="evento('Clicou inicio', 'inicio', clique);" href="./#inicio">
+          Início
+        </a>
+        <a class="navbar-item" onClick="evento('Clicou sobre', 'sobre', clique);" href="./#sobre">
+          Sobre
+        </a>
+        <a class="navbar-item" onClick="evento('Clicou faq', 'faq', clique);" href="./#faq">
+          FAQ
+        </a>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-hidden-mobile">
+            
+            <h1 class="title is-1 is-spaced">Contate-nos</h1>
+            <br>
+            
+            <ul class="informacoes-contato">
+              <li>
+                <h2 class="subtitulo-contato">Atendimento presencial:</h2>
+                <p>Segunda à Sexta</p>
+                <p>08h00 às 12h00 e de 14h00 às 18h00</p>
+              </li>
+              
+              <li>
+                <h2 class="subtitulo-contato">Nosso Endereço:</h2>
+                <p>LBI, Segundo Andar do Prédio da Caixa, Campus Universitário UFV - Viçosa,
+                  Minas Gerais</p>
+              </li>
+              
+              <li>
+                <h2 class="subtitulo-contato">Nosso telefone:</h2>
+                <p>(31) 3612-6397</p>
+              </li>
+            </ul>
+            
+            <h2 class="subtitulo-contato">Preencha o formulário ao lado e <br>retornaremos o mais rápido possível!</h2>
+          </div>
+
+          <div class="column">
+            <h1 class="title is-1 is-spaced is-hidden-tablet">Contate-nos</h1>
+
+            <form id="contact-form" action="javascript:exibeAvisoForm();" >
+              <label class="label" for="nome">Nome</label>
+              <p class="control">
+                <input name="nome" id="nome" class="input" type="text" required="required">
+              </p>
+             
+              <label class="label" for="email">E-mail</label>
+              <p class="control">
+                <input name="email" id="email" class="input" type="email" required="required">
+              </p>
+             
+              <label class="label" for="telefone">Telefone</label>
+              <p class="control">
+                <input name="telefone" id="telefone" class="input" type="tel" required="required">
+              </p>
+             
+              <label class="label">Contato preferencial</label>
+              <p class="control">
+                <span name="contato-preferencial" class="select">
+                  <select name="contato-preferencial">
+                    <option>E-mail</option>
+                    <option>Telefone</option>
+                    <option>Whatsapp</option>
+                  </select>
+                </span>
+              </p>
+             
+              <label class="label" for="mensagem">Mensagem</label>
+              <p class="control">
+                <textarea name="mensagem" id="mensagem"
+                  class="textarea">Solicito um orçamento do gerador de contratos.</textarea>
+              </p>
+              
+              <span id="aviso-form" class="oculta-aviso-form">O formulário está desabilitado e serve apenas para fins ilustrativos.</span>
+              <p class="control">
+                <input class="button is-disabled is-info" type="submit" value="Enviar" target="_blank"
+                  onClick="evento('Entrar em contato', 'enviar', 'clique');">
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="column is-hidden-tablet">
+          
+          <br>
+          <ul class="informacoes-contato">
+            
+            <li>
+              <h2 class="subtitulo-contato">Atendimento presencial:</h2>
+              <p>Segunda à Sexta</p>
+              <p>08h00 às 12h00 e de 14h00 às 18h00</p>
+            </li>
+            
+            <li>
+              <h2 class="subtitulo-contato">Nosso Endereço:</h2>
+              <p>LBI, Segundo Andar do Prédio da Caixa, Campus Universitário UFV - Viçosa,
+                Minas Gerais</p>
+            </li>
+            
+            <li>
+              <h2 class="subtitulo-contato">Nosso telefone:</h2>
+              <p>(31) 3612-6397</p>
+            </li>
+          </ul>
+          
+          <h2 class="subtitulo-contato">Preencha o formulário ao lado e retornaremos o mais rápido possível!</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer footer-contato">
+    <div class="content has-text-centered">
+      <a href="https://github.com/guidiasz">Feito com ❤️ por Guilherme Dias</a>
+    </div>
+  </footer>
+  
+  <script src="assets/js/exibeAvisoForm.js" type="text/javascript"></script>
+  <script src="assets/js/evento-analytics.js" type="text/javascript"></script>
+  <script src="assets/js/navbar-burger.js" type="text/javascript"></script>
+</body>
+</html>

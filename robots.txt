@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /index.html
+Allow: /contato.html
+
+Sitemap: https://automateasy.nobugs.com.br/sitemap.xml
