@@ -5,7 +5,7 @@
     <i align="center">Landing Page para o produto Automateasy</i>
 </p>
 
-Meu primeiro contato com HTML, CSS, JS
+Meu primeiro contato com o framework Bulma
 
 <p align="center">
     <img src="./.github/site.png"  alt="Screenshot do site">
